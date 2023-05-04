@@ -25,6 +25,8 @@ Ao executar o script, serão criados dois arquivos no diretório atual: um arqui
 
 ## Exemplo
 
+### Arquivo JSON: <a href="./dados_coletados.json" target="_blank">dados_coletados.json</a>
+
 ```json
 [
   {
@@ -56,6 +58,9 @@ Ao executar o script, serão criados dois arquivos no diretório atual: um arqui
   }
 ]
 ```
+
+### Arquivo CSV: <a href="./dados_coletados.csv" target="_blank">dados_coletados.csv</a>
+
 
 <table>
 <thead>

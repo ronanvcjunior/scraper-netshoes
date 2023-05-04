@@ -20,21 +20,19 @@ async function main() {
     const $ = cheerio.load(response.body);
 
     let maxPages = parseInt($(".last").text());
-    console.log(maxPages);
 
-    let i = 1;
     let tentativas = 0;
-    let numeroPaginaComErro = 0;
+    let numeroPaginaComErro = 1;
+    let i = 1;
     while (i <= (maxPages + URLS_COM_ERRO.length)) {
       const options = {
         timeout: 60000, // tempo limite de 60 segundos
       };
       await new Promise((resolve) => setTimeout(resolve, (1000 * tentativas)));
       let url;
-      if (i > maxPages) {
+      if (i > maxPages) 
         url = URLS_COM_ERRO[i - (maxPages + 1)];
-        numeroPaginaComErro++;
-      } else
+      else
         url = `${URL}?page=${i}`;
       const response = await needle("get", url, options);
       console.log(url);
@@ -86,12 +84,13 @@ async function main() {
             "\n",
             "\x1b[0m"
           );
-          URLS_COM_ERRO.push("https://www.netshoes.com.br/busca?page=" + i); 
+          URLS_COM_ERRO.push(url); 
         } else if (produtosDaPagina > 0 && (i > maxPages)) {
-          console.log(i - (maxPages + 1));
           URLS_COM_ERRO.splice(i - (maxPages + 1), 1);
           i--;
         }
+        if (i > maxPages) 
+          numeroPaginaComErro++;
         i++;
         tentativas = 0;
       }

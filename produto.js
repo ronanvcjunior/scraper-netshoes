@@ -25,10 +25,7 @@ class Produto {
 
       this.titulo = this.obterTitulo($);
       this.desconto = this.obterDesconto($);
-      if (this.desconto)
-        this.precoOriginal = this.obterPrecoOriginal($);
-      else
-        this.precoOriginal = this.obterPrecoAVista($);
+      this.precoOriginal = this.obterPrecoOriginal($) || this.obterPrecoAVista($);
       this.precoAVista = this.obterPrecoAVista($);
       this.precoAPrazo = this.obterPrecoAPrazo($);
       this.descricao = this.obterDescricao($);
