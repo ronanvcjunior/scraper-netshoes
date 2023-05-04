@@ -18,7 +18,7 @@ class Produto {
     try {
       const options = {
         timeout: 60000, // tempo limite de 60 segundos
-        follow_max: 3
+        follow_max: 3 // limite de redirecionamentos
       };
       const response = await needle("get", this.url, options);
       const $ = cheerio.load(response.body);
@@ -32,7 +32,7 @@ class Produto {
       this.images = this.obterdescricao($);
       this.atributos = await this.obterAtributos($);
     } catch (error) {
-      console.error(`Erro ao extrair informações do produto: ${error}`);
+      throw new Error(error)
     }
   }
 

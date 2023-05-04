@@ -23,6 +23,21 @@ Para executar o script, siga os passos abaixo:
 
 Ao executar o script, serão criados dois arquivos no diretório atual: um arquivo CSV chamado dados_coletados.csv e um arquivo JSON chamado dados_coletados.json. Esses arquivos conterão as informações coletadas pelo script. Além disso, pode ser criado um terceiro arquivo JSON chamado urls_com_erro.json, contendo as URLs dos produtos da Netshoes que apresentaram erro durante o scraping.
 
+## Como testar
+
+Existe um arquivo chamado config.js, nele é possível alterar o número de paginadas a serem extraridas.
+
+```js
+MaxPaginas: 0   // Irá coletar os dados de todas as páginas
+MaxPaginas: 10  // Irá coletar os dados de 10 páginas
+```
+
+Também é possível alterar o número de tentativas que uma página pode soferr para tentar extrair os seus dados.
+
+```js
+MaxTentativas: 3   // Serão feitas 3 tentativas antes de colocar a página como página com erro
+```
+
 ## Exemplo
 
 ### Arquivo JSON: <a href="./dados_coletados.json" target="_blank">dados_coletados.json</a>
