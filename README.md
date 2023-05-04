@@ -57,7 +57,33 @@ Ao executar o script, serão criados dois arquivos no diretório atual: um arqui
 ]
 ```
 
-| url | titulo | desconto | precoOriginal | precoAVista | precoAPrazo | descricao | images | atributos |
-| -------- | -------- | -------- | -------- | -------- | -------- | -------- | -------- | -------- |
-| www.netshoes.com.br/tenis-mizuno-wave-titan-2-2FU-6367-006 | Tênis Mizuno Wave Titan 2 - Preto |31 | 349.99 | 227.99 | 239.99 | *Possui forma pequena, para um melhor ajuste nos pés, recomendamos a compra de um tamanho maior do que o seu usual.* Aposte no conforto e qualidade do novo Tênis de Corrida Masculino da Mizuno para te acompanhar nos seus treinos diários. Com design moderno, o running indicado para caminhadas e corridas leves possui cabedal fabricado com material macio e respirável que garante mais frescor durante o uso. O calcanhar é acolchoado e oferece suporte aos pés enquanto o cadarço garante ajuste eficaz. A entressola em EVA conta com tecnologia que proporciona alto nível de maciez entre uma passada e outra; e o solado de borracha proporciona aderência e tração por onde você passar. Indicado para corredores de pisada neutra, o Tênis Masculino Mizuno acompanha os corredores mais ambiciosos na busca pelo melhor pace. Aproveite! | <img src="https://static.netshoes.com.br/produtos/tenis-mizuno-wave-titan-2/06/2FU-6367-006/2FU-6367-006_zoom1.jpg?ts=1657368380&"/><br><img src="https://static.netshoes.com.br/produtos/tenis-mizuno-wave-titan-2/06/2FU-6367-006/2FU-6367-006_zoom2.jpg?ts=1657368380&"/><br><img src="https://static.netshoes.com.br/produtos/tenis-mizuno-wave-titan-2/06/2FU-6367-006/2FU-6367-006_zoom3.jpg?ts=1657368380&"/><br><img src="https://static.netshoes.com.br/produtos/tenis-mizuno-wave-titan-2/06/2FU-6367-006/2FU-6367-006_zoom4.jpg?ts=1657368380&"/><br><img src="https://static.netshoes.com.br/produtos/tenis-mizuno-wave-titan-2/06/2FU-6367-006/2FU-6367-006_zoom5.jpg?ts=1657368380&"/> |  Nome: "Tênis Mizuno Wave Titan 2", Gênero: "Unissex", Indicado para: "Dia a Dia", Material: "Têxtil e Sintético", Categoria: "Caminhada", Composição: "Cabedal: Têxtil com tiras sintéticas, calcanhar acolchoado e fecho em cadarço; Entressola: EVA; Solado: Borracha", Tecnologia: "Wave", Pisada: "Neutra", Definição da Tecnologia: "Tecnologia que garante 100% da performance do sistema, proporcionando maior absorção de impacto, máximo amortecimento e estabilidade", Importante: "Possui forma pequena, para um melhor ajuste nos pés, recomendamos a compra de um tamanho maior do que o seu usual.", Garantia do Fabricante: "Contra defeito de fabricação", Origem: "Nacional", Marca: "Mizuno" |
+<table>
+<thead>
+<tr>
+<th>url</th>
+<th>titulo</th>
+<th>desconto</th>
+<th>precoOriginal</th>
+<th>precoAVista</th>
+<th>precoAPrazo</th>
+<th>descricao</th>
+<th style="width: 500px">images</th>
+<th>atributos</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>www.netshoes.com.br/tenis-mizuno-wave-titan-2-2FU-6367-006</td>
+<td>Tênis Mizuno Wave Titan 2 - Preto</td>
+<td>31</td>
+<td>349.99</td>
+<td>227.99</td>
+<td>239.99</td>
+<td><em>Possui forma pequena, para um melhor ajuste nos pés, recomendamos a compra de um tamanho maior do que o seu usual.</em> Aposte no conforto e qualidade do novo Tênis de Corrida Masculino da Mizuno para te acompanhar nos seus treinos diários. Com design moderno, o running indicado para caminhadas e corridas leves possui cabedal fabricado com material macio e respirável que garante mais frescor durante o uso. O calcanhar é acolchoado e oferece suporte aos pés enquanto o cadarço garante ajuste eficaz. A entressola em EVA conta com tecnologia que proporciona alto nível de maciez entre uma passada e outra; e o solado de borracha proporciona aderência e tração por onde você passar. Indicado para corredores de pisada neutra, o Tênis Masculino Mizuno acompanha os corredores mais ambiciosos na busca pelo melhor pace. Aproveite!</td>
+<td style="width: 500px"><img src="https://static.netshoes.com.br/produtos/tenis-mizuno-wave-titan-2/06/2FU-6367-006/2FU-6367-006_zoom1.jpg?ts=1657368380&"/><br><img src="https://static.netshoes.com.br/produtos/tenis-mizuno-wave-titan-2/06/2FU-6367-006/2FU-6367-006_zoom2.jpg?ts=1657368380&"/><br><img src="https://static.netshoes.com.br/produtos/tenis-mizuno-wave-titan-2/06/2FU-6367-006/2FU-6367-006_zoom3.jpg?ts=1657368380&"/><br><img src="https://static.netshoes.com.br/produtos/tenis-mizuno-wave-titan-2/06/2FU-6367-006/2FU-6367-006_zoom4.jpg?ts=1657368380&"/><br><img src="https://static.netshoes.com.br/produtos/tenis-mizuno-wave-titan-2/06/2FU-6367-006/2FU-6367-006_zoom5.jpg?ts=1657368380&"/></td>
+<td>Nome: &quot;Tênis Mizuno Wave Titan 2&quot;, Gênero: &quot;Unissex&quot;, Indicado para: &quot;Dia a Dia&quot;, Material: &quot;Têxtil e Sintético&quot;, Categoria: &quot;Caminhada&quot;, Composição: &quot;Cabedal: Têxtil com tiras sintéticas, calcanhar acolchoado e fecho em cadarço; Entressola: EVA; Solado: Borracha&quot;, Tecnologia: &quot;Wave&quot;, Pisada: &quot;Neutra&quot;, Definição da Tecnologia: &quot;Tecnologia que garante 100% da performance do sistema, proporcionando maior absorção de impacto, máximo amortecimento e estabilidade&quot;, Importante: &quot;Possui forma pequena, para um melhor ajuste nos pés, recomendamos a compra de um tamanho maior do que o seu usual.&quot;, Garantia do Fabricante: &quot;Contra defeito de fabricação&quot;, Origem: &quot;Nacional&quot;, Marca: &quot;Mizuno&quot;</td>
+</tr>
+</tbody>
+</table>
+
 
