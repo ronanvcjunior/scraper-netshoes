@@ -16,7 +16,12 @@ const URLS_COM_ERRO = [];
 async function main() {
   try {
     const maxPaginas = MaxPaginas || await numeroPaginas();
-    console.log(maxPaginas);
+    console.log(
+      '\x1b[33m',
+      `Número de páginas a terem seus dados extraídos: ${maxPaginas}`,  
+      '\n', 
+      '\x1b[0m'
+    );
     let tentativas = 0;
     let numeroPaginaComErro = 1;
     let paginaAtual = 1;
@@ -41,7 +46,7 @@ async function main() {
       if (!isResponseSuccessful && tentativas < MaxTentativas) {
         tentativas++;
       } else {
-        if (!isResponseSuccessful && isPaginaComErroDetectado) {
+        if (!isResponseSuccessful && !isPaginaComErroDetectado) {
           console.error(
             "\x1b[31m",
             `Erro ao extrair informações na página ${paginaAtual}`,

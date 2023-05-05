@@ -25,17 +25,17 @@ Ao executar o script, serão criados dois arquivos no diretório atual: um arqui
 
 ## Como testar
 
-Existe um arquivo chamado config.js, nele é possível alterar o número de paginadas a serem extraridas.
+Existe um arquivo chamado config.js, nele é possível alterar o número de páginas a serem extrarídas.
 
 ```js
 MaxPaginas: 0   // Irá coletar os dados de todas as páginas
 MaxPaginas: 10  // Irá coletar os dados de 10 páginas
 ```
 
-Também é possível alterar o número de tentativas que uma página pode soferr para tentar extrair os seus dados.
+Também é possível alterar o número de tentativas que uma página pode sofer para tentar extrair os seus dados.
 
 ```js
-MaxTentativas: 3   // Serão feitas 3 tentativas antes de colocar a página como página com erro
+MaxTentativas: 3   // Serão feitas 3 tentativas antes de colocar a página na lista de páginas com erro
 ```
 
 ## Exemplo
@@ -106,4 +106,11 @@ MaxTentativas: 3   // Serão feitas 3 tentativas antes de colocar a página como
 </tbody>
 </table>
 
+### Progresso da extração dos dados no terminal:
+
+<img src="./progress_terminal.png"/>
+
+### Resultado da esxtração dos dados no terminal:
+
+<img src="./result_terminal.png"/>
 
